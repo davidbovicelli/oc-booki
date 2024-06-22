@@ -358,6 +358,7 @@ input {
     display: flex;
     width: 758px;
     gap: 15px;
+    align-items: center;
 }
 
 .space-filtered {
