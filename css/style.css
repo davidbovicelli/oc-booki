@@ -99,7 +99,8 @@ a {
     justify-content: space-between;
     width: 1340px;
     height: 614px;
-
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .hebergements-and-popular section {
