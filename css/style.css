@@ -356,7 +356,7 @@ input {
 /****** filtered ***********/
 .filtered {
     display: flex;
-    width: 758px;
+    width: 900px;
     gap: 15px;
     align-items: center;
 }
