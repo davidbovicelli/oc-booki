@@ -511,12 +511,16 @@ input {
 
 .display-flex-footer {
     display: flex;
-    padding-right: 15px;
-    gap: 30px;
     justify-content: space-between;
 }
 
 .display-flex-footer-2 {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.display-flex-footer-3 {
     display: flex;
     padding-right: 280px;
     gap: 30px;
