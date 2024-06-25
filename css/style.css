@@ -125,8 +125,10 @@ a {
     display: flex;
     flex-direction: column;
     margin-top: 33px;
-    width: 250.33px;
-    height: 207.25px;
+    padding: 5px ;
+    gap: 4px;
+    border-radius: 20px 20px 20px ;
+    
 }
 
 .hebergements-cards img {
@@ -362,13 +364,15 @@ input {
     align-items: center;
 }
 
+
 .space-filtered {
     margin-top: 35px;
     margin-bottom: 35px;
 }
 
 .space-filtered-2 {
-    margin-bottom: 11px;
+    margin-bottom: 22px;
+    margin-top: auto;
 }
 
 .space-filtered-title-eco { 
