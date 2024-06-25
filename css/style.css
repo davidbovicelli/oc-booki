@@ -82,7 +82,7 @@ a {
 
 
 .card-title {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .euro {
@@ -419,7 +419,7 @@ input {
 }
 
 .text-logo-filtered:hover {
-    background-color: var(--filter-bg-color);
+    background-color: var(--filter-bg-color);-
 }
 
 .text-logo-filtered-2:hover {
