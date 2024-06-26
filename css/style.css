@@ -269,6 +269,7 @@ nav {
     flex-direction: row;
     margin-left: auto;
     align-items: flex-start;
+    margin-top: 1px;
 }
 
 .bottom-header :hover {
