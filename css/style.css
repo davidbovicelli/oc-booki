@@ -220,7 +220,7 @@ a {
     display: flex;
     padding-left: 15px;
     padding-right: 15px;
-    gap: 30px;
+    gap: 20px;
     justify-content: center;
 }
 
@@ -373,6 +373,10 @@ input {
 .space-filtered-2 {
     margin-bottom: 22px;
     margin-top: auto;
+}
+
+.space-filtered-3 {
+    margin-top: 22px;
 }
 
 .space-filtered-title-eco { 
