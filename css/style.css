@@ -49,6 +49,8 @@
     left: 714px;
     padding: 0px 0px 58px 0px;
     margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section-1-size {
@@ -267,20 +269,19 @@ nav {
 }
 
 .bottom-header {
-    width: 244px;
-    height: 35px;
+    width: 260px;
     gap: 68px;
     display: flex;
     flex-direction: row;
     margin-left: auto;
-    align-items: flex-start;
-    margin-top: 1px;
+    justify-content: flex-start;
+    margin-top: 20px;
 }
 
 .bottom-header :hover {
     color: #0065FC;
     text-decoration: overline;
-    text-decoration-thickness: 2px;
+    text-decoration-thickness: 2px;   
 }
 
 
