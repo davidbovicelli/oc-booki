@@ -423,10 +423,11 @@ input {
     height: 50px;
     border-radius: 30px;
     margin-right: 20px;
+    cursor: grab;
 }
 
 .text-logo-filtered:hover {
-    background-color: var(--filter-bg-color);-
+    background-color: var(--filter-bg-color);
 }
 
 .text-logo-filtered-2:hover {
