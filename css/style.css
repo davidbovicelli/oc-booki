@@ -535,6 +535,13 @@ input {
     justify-content: space-between;
 }
 
+.display-flex-footer-4 {
+    display: flex;
+    padding-right: 40px;
+    gap: 30px;
+    justify-content: space-between;
+}
+
 
     
 
