@@ -85,6 +85,11 @@ a {
     font-size: 14px;
 }
 
+.card-title-footer {
+    font-size: 21px;
+}
+
+
 .euro {
     font-weight: 700;
 }
@@ -514,7 +519,7 @@ input {
     padding: 20px;
     box-sizing: border-box;
     width: 1340px;
-    height: 171px;
+    height: 195px;
 }
 
 .display-flex-footer {
