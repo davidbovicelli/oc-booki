@@ -3,13 +3,6 @@
     font-family: 'Raleway', sans-serif;
 }
 
-.html-size {
-    width: 1440px;
-    height: 1831.02px;
-    gap: 30px;
-    opacity: 0px;
-}
-
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
@@ -22,24 +15,21 @@
 
 .fa-solid-black {
     color: #000;
-
 }
 
 .bottom-fa:hover {
-    color: #DEEBFF;
-    
+    color: #DEEBFF;    
 }
 
 .bottom-fa:active {
     color: #FFF;
 }
 
-.main-size {
+main {
     width: 1440px;
     height: 1722.02px;
     padding: 50px 0px 0px 50px;
-    gap: 35px;
-    
+    gap: 35px;   
 }
 
 .body-size {
@@ -134,8 +124,7 @@ a {
     margin-top: 33px;
     padding: 5px ;
     gap: 4px;
-    border-radius: 20px 20px 20px ;
-    
+    border-radius: 20px 20px 20px ;    
 }
 
 .hebergements-cards img {
@@ -166,9 +155,6 @@ a {
 .hebergements-cards .card-rating {
     margin-bottom: 5px;
 }
-
-
-
 
 /****** popular ***********/
 .popular {
@@ -275,7 +261,7 @@ nav {
     flex-direction: row;
     margin-left: auto;
     justify-content: flex-start;
-    margin-top: 20px;
+    margin-top: 2px;
 }
 
 .bottom-header :hover {
@@ -293,11 +279,10 @@ input {
     border: 1px solid gray;
     text-size-adjust: 21px;
     font-family: Raleway;
-font-size: 18px;
-font-weight: 700;
-line-height: 21.13px;
-text-align: center;
-
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.13px;
+    text-align: center;
 }
 
 .circle-logo {
@@ -372,7 +357,6 @@ text-align: center;
     gap: 15px;
     align-items: center;
 }
-
 
 .space-filtered {
     margin-top: 35px;
@@ -515,9 +499,7 @@ text-align: center;
     text-align: left;
 }
 
-
 /****** footer ***********/
-
 .footer {
     background-color: var(--main-bg-color);
     gap: 15px;
