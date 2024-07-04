@@ -18,7 +18,7 @@
 }
 
 .bottom-fa:hover {
-    color: #DEEBFF;    
+    color: var(--filter-bg-color);    
 }
 
 .bottom-fa:active {
@@ -248,30 +248,36 @@ header {
 
 nav {
     width: 344px;
-    height: 35px;
-    gap: 68px;
-    left: 1096px;
+    height: 79px;
     padding: 0px 50px 0px 50px;
 }
 
+.menu-container {  
+    display: flex;
+    width: auto;
+    height: 79px;
+}
+
 .bottom-header {
-    width: 260px;
-    gap: 68px;
+    width: auto;
+    height: auto;
     display: flex;
     flex-direction: row;
     margin-left: auto;
-    justify-content: flex-start;
-    margin-top: 2px;
+    justify-content: center;
+    border-top: 2px white solid;
+    padding-top: 20px;
+
 }
 
-.bottom-header :hover {
-    color: #0065FC;
-    text-decoration: overline;
-    text-decoration-thickness: 2px;   
+.bottom-header:hover {
+    color: var(--main-color);
+    border-top: 2px var(--main-color) solid;
+    padding-top: 20px;   
 }
 
 
-.bottom-header :active {
+.bottom-header:active {
     color: black;
 }
 
@@ -288,17 +294,17 @@ input {
 .circle-logo {
     width: 20px;
     height: 20px;
-    border: 2px solid #F2F2F2;
+    border: 2px solid var(--main-bg-color);
     border-radius: 25px;
     margin-right: 5px;
 }
 
 .gray-font-logo {
-    background-color: #F2F2F2;    
+    background-color: var(--main-bg-color);    
 }
 
 .blue-font {
-    background-color: #0065FC;
+    background-color: var(--main-color);
 }
 
 .black-font {
@@ -318,7 +324,7 @@ input {
 .size-research {
     width: 400px;
     border-radius: 10px;
-    border: 0.5px solid #F2F2F2;   
+    border: 0.5px solid var(--main-bg-color);   
 }
 
 .size-logo {
@@ -406,7 +412,7 @@ input {
 }
 
 .text-logo-filtered {
-    border: 2px solid #F2F2F2;
+    border: 2px solid var(--main-bg-color);
     height: 50px;
     border-radius: 30px;
     margin-right: 20px;
