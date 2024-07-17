@@ -47,7 +47,6 @@ main {
     width: 1340px;
     height: 281px;
     gap: 35px;
-    opacity: 0px;
 }
 
 a {
@@ -243,7 +242,6 @@ header {
     height: 79px;
     padding: 30px 50px 30px 50px;
     gap: 10px;
-    opacity: 0px;
 }
 
 nav {
@@ -283,7 +281,6 @@ nav {
 
 input {
     border: 1px solid gray;
-    text-size-adjust: 21px;
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
@@ -455,7 +452,6 @@ input {
     height: 559.02px;
     padding: 30px 0px 0px 0px;
     gap: 30px;
-    opacity: 0px;
 }
 
 .card-activity {
@@ -497,7 +493,6 @@ input {
     width: 1280px;
     height: 30.02px;
     gap: 0px;
-    opacity: 0px;
     font-family: Raleway;
     font-size: 22px;
     font-weight: 700;
